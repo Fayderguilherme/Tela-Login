@@ -105,9 +105,9 @@ body {
 
 .login:hover {
     background-color: transparent;
-    border: 2px solod rgba(255, 255, 255, .2);
+    border: 2px solid rgba(255, 255, 255, .2);
     color: #fff;
-    transition: 0.5;
+    transition: 0.5s;
 }
 
 .register-link {
@@ -124,4 +124,16 @@ body {
 
 .register-link a:hover {
     text-decoration: underline;
+}
+
+/* Responsividade do Login , o MEDIA QUERY(MEDIA) e oque faz ser responsivo juntamente com a tag viewport do HTML*/
+@media (max-width: 480px) {
+    .container {
+        width: 90%; /* Em vez de 420px fixos, ocupa 90% da tela do celular */
+        padding: 30px 20px; /* Diminui um pouco o espaço interno para caber melhor */
+    }
+
+    .container h1 {
+        font-size: 28px; /* Diminui um pouquinho o título no celular */
+    }
 }
