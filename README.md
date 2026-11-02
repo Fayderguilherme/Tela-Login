@@ -2,7 +2,7 @@
 
 > Uma interface de login moderna, elegante e 100% responsiva construída apenas com HTML5 e CSS3 puro. O foco deste projeto foi aplicar o conceito de UI Design conhecido como **Glassmorphism** (efeito de vidro fosco).
 
-![Demonstração da Aplicação](https://telalogi.netlify.app/)
+Demonstração da Aplicação https://telalogi.netlify.app/
 
 
 ## 🛠️ Tecnologias Utilizadas
